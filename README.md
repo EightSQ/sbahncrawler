@@ -2,7 +2,7 @@
 Sammelt Echtzeitdaten von Produkten des Berliner ÖPNV.
 
 ## Usage
-1. Find the Station ID you are interested with [https://github.com/derhuerst/bvg-rest/blob/master/docs/index.md#get-locations](the bvg-rest API project).
+1. Find the Station ID you are interested with [the bvg-rest API project](https://github.com/derhuerst/bvg-rest/blob/master/docs/index.md#get-locations).
 2. 	With Docker:
 	```
 		$ docker build -t eightsq/sbahncrawler .
@@ -23,4 +23,4 @@ Actually, since you want to automate this, set up cronjob, that does this regula
 To crawl a different product than S-Bahn, adjust the `productId` filter in the `crawl`-Function inside `crawler.py`.
 
 ## Author
-EightSQ ([blog.8sq.de](Blog))
+EightSQ ([Blog](blog.8sq.de))
