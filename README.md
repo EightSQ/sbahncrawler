@@ -23,4 +23,4 @@ Actually, since you want to automate this, set up cronjob, that does this regula
 To crawl a different product than S-Bahn, adjust the `productId` filter in the `crawl`-Function inside `crawler.py`.
 
 ## Author
-EightSQ <git@8sq.de>
+EightSQ ([blog.8sq.de](Blog))
